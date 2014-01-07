@@ -1,0 +1,9 @@
+﻿{
+	"id" : "EMEGDT",
+	"name" : "GDT - Even More Events",
+	"version":"0.1.1",
+	"author":"Twitter: @driKton",
+	"url":"https://youtube.com/user/driKton",
+	"description" : "Adds real videogame conventions like VlizzCon, Gamezcom...etc.",
+	"main" : "./modAPI.js"
+}
