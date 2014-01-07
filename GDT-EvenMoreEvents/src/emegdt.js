@@ -61,4 +61,29 @@
 		});
 	};
 	
+	//ADD GAME EXTENSION
+	
+	EMEGDT.addExtendGame = function () {
+                var element = document.getElementById("gameLengthSelection");
+                var emegdt = document.createElement("option");
+                emegdt.text = "45 years";
+                emegdt.value = "1.5";
+                element.appendChild(emegdt);
+        
+                emegdt = document.createElement("option");
+                emegdt.text = "50 years";
+                emegdt.value = "1.9";
+                element.appendChild(emegdt);
+                
+                emegdt = document.createElement("option");
+                emegdt.text = "55 years";
+                emegdt.value = "1.95";
+                element.appendChild(emegdt);
+                
+                emegdt = document.createElement("option");
+                emegdt.text = "60 years";
+                emegdt.value = "2";
+                element.appendChild(emegdt);
+
+        };
 })();

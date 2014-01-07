@@ -10,17 +10,19 @@
 			EMEGDT.addResearchFPS();
 			EMEGDT.addResearchTPS();
 			EMEGDT.addResearchSandBox();
+		//Game Extensions
+			EMEGDT.addExtendGame();
 	};
 
 	var error = function () {
 	};
 
-	GDT.loadJs(['mods/GDT-EvenMoreEvents-0.1.1/helpers/checks.js',
-	'mods/GDT-EvenMoreEvents-0.1.1/api/persistence.js',
-	'mods/GDT-EvenMoreEvents-0.1.1/api/events.js',
-	'mods/GDT-EvenMoreEvents-0.1.1/api/platforms.js',
-	'mods/GDT-EvenMoreEvents-0.1.1/api/topics.js',
-	'mods/GDT-EvenMoreEvents-0.1.1/api/research.js',
+	GDT.loadJs(['mods/gdt-modAPI/helpers/checks.js',
+	'mods/gdt-modAPI/api/persistence.js',
+	'mods/gdt-modAPI/api/events.js',
+	'mods/gdt-modAPI/api/platforms.js',
+	'mods/gdt-modAPI/api/topics.js',
+	'mods/gdt-modAPI/api/research.js',
 	'mods/GDT-EvenMoreEvents-0.1.1/src/emegdt.js'
 	], ready, error);
 })();
