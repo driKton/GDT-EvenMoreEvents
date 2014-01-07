@@ -15,12 +15,12 @@
 	var error = function () {
 	};
 
-	GDT.loadJs(['mods/GDT-EvenMoreEvents/helpers/checks.js',
-	'mods/GDT-EvenMoreEvents/api/persistence.js',
-	'mods/GDT-EvenMoreEvents/api/events.js',
-	'mods/GDT-EvenMoreEvents/api/platforms.js',
-	'mods/GDT-EvenMoreEvents/api/topics.js',
-	'mods/GDT-EvenMoreEvents/api/research.js',
-	'mods/GDT-EvenMoreEvents/src/emegdt.js'
+	GDT.loadJs(['mods/GDT-EvenMoreEvents-0.1.1/helpers/checks.js',
+	'mods/GDT-EvenMoreEvents-0.1.1/api/persistence.js',
+	'mods/GDT-EvenMoreEvents-0.1.1/api/events.js',
+	'mods/GDT-EvenMoreEvents-0.1.1/api/platforms.js',
+	'mods/GDT-EvenMoreEvents-0.1.1/api/topics.js',
+	'mods/GDT-EvenMoreEvents-0.1.1/api/research.js',
+	'mods/GDT-EvenMoreEvents-0.1.1/src/emegdt.js'
 	], ready, error);
 })();
